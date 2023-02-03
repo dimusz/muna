@@ -22,10 +22,9 @@ function Header() {
             <img id="image-logo" src={logo8} alt="logo" />
           </div>
           <div className="phone-icon">
-            <a href="tel:+40745580256">
+            <a href="tel:+40745580156">
             <SmartphoneIcon
               className="phone"
-              
               sx={{ fontSize: "1em" }}
             /></a>
           </div>
