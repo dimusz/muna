@@ -179,14 +179,15 @@
     position: absolute;
     right: 0;
 }
-  .phone-icon {
-    position: fixed;
-    display: block;
-    color: #b2b4c4;
-    font-size: 50px;
-    cursor: pointer;
-    left: 65%;
-    top: 2%;
+.phone-icon{
+  position: sticky;
+  display: block;
+  color: #b2b4c4;
+  font-size: 2.9rem;
+  cursor: pointer;
+  left: 0%;
+  top: 0%;
+  transform: translate(-150%,14%);
 }
   .phone {
     width: 50px;
