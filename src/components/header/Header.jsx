@@ -21,6 +21,7 @@ function Header() {
           <div id="logo">
             <img id="image-logo" src={logo8} alt="logo" />
           </div>
+          <div className="header-form-2">
           <div className="phone-icon">
             <a href="tel:+40745580156">
             <SmartphoneIcon
@@ -34,7 +35,7 @@ function Header() {
               onClick={showMenu}
               sx={{ fontSize: "1.5em" }}
             />
-          </div>
+          </div></div>
           <nav className={active ? "slider active" : "slider"}>
             <div id="logo3">
               <img id="image-logo3" src={logo3} alt="logo3" />
@@ -48,7 +49,7 @@ function Header() {
                 />
               </div>
               <li onClick={showMenu}>
-                <NavLink to="/acasa">Acasa</NavLink>
+                <NavLink to="/">Acasa</NavLink>
               </li>
               <li onClick={showMenu}>
                 <NavLink to="/servicii">Servicii</NavLink>
