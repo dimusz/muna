@@ -14,7 +14,7 @@ import BrRbr from "./subPages/branding/BrRbr";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <Routes>
         <Route path="/acasa" element={<Home />} />
         <Route path="/servicii" element={<Services />} />
