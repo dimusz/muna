@@ -176,14 +176,18 @@
     color: #b2b4c4;
     font-size: 50px;
     cursor: pointer;
-  }
-  .phone-icon{
+    position: absolute;
+    right: 0;
+}
+  .phone-icon {
+    position: fixed;
     display: block;
     color: #b2b4c4;
     font-size: 50px;
     cursor: pointer;
-    padding-right: 5rem;
-  }
+    left: 65%;
+    top: 2%;
+}
   .phone {
     width: 50px;
     height: 100px;
