@@ -209,6 +209,7 @@
     transition: 1s ease;
   }
   .slider.active {
+    background-color: red;
     z-index: 1;
     top: 0;
     transition: 1s ease;
