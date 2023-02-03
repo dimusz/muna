@@ -9,63 +9,9 @@
   color: #b2b4c4;
   font-family: "Roboto Condensed", sans-serif;
 }
-@media screen and (min-width: 1024px) {
-  .BrRbr-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
-  }
-  #branding {
-    width: 700px;
-    height: 500px;
-  }
-  .BrRbr button {
-    margin-top: 20px;
-    margin-right: auto;
-    color: #b2b4c4;
-    background-color: #141414;
-  }
-  .text {
-    display: inline;
-    width: 100%;
-  }
-  .read-or-hide {
-    color: blue;
-    cursor: pointer;
-    font-size: 15px;
-  }
-  .branding-setup {
-    width: inherit;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    color: #b2b4c4;
-  }
-  .branding-setup th {
-    width: 33%;
-    border: 2px solid transparent;
-  }
-  .branding-setup th:hover {
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
-  }
-  #personal h2 {
-    text-decoration: underline;
-    text-transform: uppercase;
-  }
-  #produs {
-    background-color: #6d4263;
-  }
-  #companie {
-    background-color: #0e7074;
-  }
-}
 
-@media (min-width: 769px) and (max-width: 1024px) {
+
+@media screen and (min-width: 769px)  {
   .BrRbr-2 {
     display: flex;
     flex-direction: column;
@@ -82,6 +28,24 @@
     margin-right: auto;
     color: #b2b4c4;
     background-color: #141414;
+  }
+  .principal-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  }
+  .principal{
+    font-size: 2rem;
+    width: 70%;
+    text-align: justify;
+    padding-bottom: 5%;
+  }
+  .principal h2{
+    text-align: center;
+    padding-bottom: 1%;
+    text-transform: uppercase;
   }
   .text {
     display: inline;
@@ -102,25 +66,26 @@
     align-items: center;
     color: #b2b4c4;
   }
+  .branding-setup table{
+    width: 100vw;
+  }
   .branding-setup th {
-    width: 33%;
+    width: 50%;
     border: 2px solid transparent;
   }
   .branding-setup th:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
   }
-  #personal h2 {
-    text-decoration: underline;
-    text-transform: uppercase;
-  }
   #produs h2 {
     text-decoration: underline;
     text-transform: uppercase;
+    padding-bottom: 1%;
   }
   #companie h2 {
     text-decoration: underline;
     text-transform: uppercase;
+    padding-bottom: 1%;
   }
   #produs {
     background-color: #6d4263;
@@ -128,7 +93,7 @@
   #companie {
     background-color: #0e7074;
   }
-}
+
 
 @media (min-width: 481px) and (max-width: 768px) {
   .BrRbr-2 {
@@ -174,11 +139,6 @@
   .branding-setup th:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
-  }
-  #personal h2 {
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-size: 100%;
   }
   #produs h2 {
     text-decoration: underline;
@@ -242,11 +202,6 @@
   .branding-setup th:hover {
     color: rgba(255, 255, 255, 1);
     box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
-  }
-  #personal h2 {
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-size: 100%;
   }
   #produs h2 {
     text-decoration: underline;

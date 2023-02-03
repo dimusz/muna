@@ -32,30 +32,22 @@ function BrRbr() {
           {" "}
           <img id="branding" src={branding} alt="branding image" />
         </div>
-        <div>
-          <h1>
+        <div className="principal-container">
+          <h1 className="principal">
             {" "}
-            <ReadMore>
-              Brandingul este procesul prin care se creaza in mintea
+              <h2>Brandingul</h2> este procesul prin care se creaza in mintea
               consumatorului, o identitate asupra unei afaceri. Prin branding
               intelegem crearea unui logo, stabilirea unei palete de culori care
               va fi folosita intotdeauna, stabilirea misiunii companiei.
               Brandingul este important pentru ca te face memorabil si ii
               permite clientului sa afle de la ce sa se astepte de la compania
-              ta.
-            </ReadMore>
+              ta.Brandingul este un proces continuu prin care compania isi schimba 
+              perceptia pe care o are publicul asupra ei.
           </h1>
         </div>
         <div className="branding-setup">
           <table>
             <tr>
-              <th id="personal">
-                {" "}
-                <h2>Branding personal</h2>
-                <h3>
-                  <ReadMore>sadfghdjkghl</ReadMore>{" "}
-                </h3>{" "}
-              </th>
               <th id="produs">
                 {" "}
                 <h2>Branding de produs</h2>{" "}
