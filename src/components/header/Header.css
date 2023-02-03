@@ -1,0 +1,240 @@
+@media screen and (min-width: 769px) {
+  .container1{
+    background-color: #141414;
+    z-index: 1;
+    height: auto;
+    width: 100vw;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .phone-icon {
+    display: none;
+  }
+  .closed {
+    display: none;
+  }
+  #image-logo3{
+    display: none;
+  }
+  .header-form {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+  #header-line {
+    background-color: #b2b4c4;
+    height: 1px;
+    width: inherit;
+  }
+  #navBar-form {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  #navBar-form nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  #navBar-form nav {
+    width: inherit;
+  }
+  #navBar-form nav ul li {
+    list-style: none;
+  }
+  #navBar-form nav ul li a {
+    text-decoration: none;
+    color: #b2b4c4;
+    transition: all 0.5s ease-in-out;
+  }
+  #navBar-form nav ul li a:hover {
+    transform: scale(1.5);
+  }
+  #navBar-form nav ul li a.active {
+    color: #b2b4c4;
+    font-size: 50px;
+  }
+  #logo{
+    width: 20%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .header-form {
+    background-color: #141414;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #header-line {
+    background-color: #b2b4c4;
+    height: 1px;
+    width: 100vw;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #b2b4c4;
+    font-size: 50px;
+    cursor: pointer;
+    padding-right: 5rem;
+  }
+  .menu {
+    width: 50px;
+    height: 100px;
+    color: #b2b4c4;
+    text-size-adjust: 100px;
+  }
+  .phone-icon{
+    display: block;
+    color: #b2b4c4;
+    font-size: 50px;
+    cursor: pointer;
+    padding-right: 5rem;
+  }
+  .phone {
+    width: 50px;
+    height: 100px;
+    color: #b2b4c4;
+    text-size-adjust: 100px;
+  }
+  .closed {
+    color: #b2b4c4;
+    cursor: pointer;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 5rem;
+  }
+  .slider {
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    height: 100vh;
+    left: -100%;
+    background-color: #141414;
+    transition: 1s ease;
+  }
+  .slider.active {
+    z-index: +2;
+    left: 0;
+    transition: 1s ease;
+  }
+  .slider ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider ul li {
+    margin-block: 5rem;
+    list-style: none;
+  }
+  .slider ul li a {
+    font-size: 50px;
+    color: #b2b4c4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  #image-logo3 {
+    position: absolute;
+    width: 500px;
+    top: 25%;
+    left: 18%;
+    right: -100%;
+    bottom: -100%;
+    opacity: 0.1;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-form {
+    background-color: #141414;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #header-line {
+    background-color: #b2b4c4;
+    height: 1px;
+    width: 100vw;
+  }
+
+  .menu-icon {
+    display: block;
+    color: #b2b4c4;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .phone-icon{
+    display: block;
+    color: #b2b4c4;
+    font-size: 50px;
+    cursor: pointer;
+    padding-right: 5rem;
+  }
+  .phone {
+    width: 50px;
+    height: 100px;
+    color: #b2b4c4;
+    text-size-adjust: 100px;
+  }
+
+  .closed {
+    color: #b2b4c4;
+    cursor: pointer;
+    font-size: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+  }
+  .slider {
+    position: fixed;
+    min-width: 100%;
+    height: 100vh;
+    top: -100%;
+    background-color: #141414;
+    transition: 1s ease;
+  }
+  .slider.active {
+    z-index: 1;
+    top: 0;
+    transition: 1s ease;
+  }
+  .slider ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider ul li {
+    margin-block: 4rem;
+    list-style: none;
+    text-transform: uppercase;
+  }
+  .slider ul li a {
+    font-size: 25px;
+    color: #b2b4c4;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  #image-logo3 {
+    position: absolute;
+    width: 250px;
+    top: 33%;
+    left: 18%;
+    opacity: 0.1;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,4 @@
+site-background-color: #141414;.
+fonts-color: #B2B4C4;
+business-color: #6d4263;
+pro-color: #0e7074;

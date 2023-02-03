@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+.webDev {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+.webDev h1{
+text-transform: uppercase;
+padding-top: 20px;
+color: #b2b4c4;
+font-size: 1.9rem;
+}
+.webDev h2{
+  font-size: 1.4rem;
+}
+.webDev h4{
+  font-size: .9rem;
+}
+#design {
+  height: auto;
+  width: 700px;
+  padding-top: 50px;
+}
+.website {
+  height: 220px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #6d4263;
+  color: #b2b4c4;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+#website-image {
+  width: 100px;
+  height: 100px;
+}
+.website:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+.online-shop {
+  height: 220px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #0e7074;
+  color: #b2b4c4;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+#online-shop-image {
+  width: 100px;
+  height: 100px;
+}
+.online-shop:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+.webDev button {
+  margin-top: 20px;
+  margin-right: auto;
+  color: #b2b4c4;
+  background-color: #141414;
+}
+@media (min-width: 320px) and (max-width: 480px){
+  #design {
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+}
+#website-image {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+#online-shop-image {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.online-shop {
+  height: 180px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #0e7074;
+  color: #b2b4c4;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  margin-bottom: 20px;
+}
+  .website {
+    height: 180px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #6d4263;
+    color: #b2b4c4;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}  
+  .webDev h1 {
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #b2b4c4;
+    font-size: 1.3rem;
+}
+.webDev h2 {
+  font-size: 1rem;
+}
+.webDev h4 {
+  font-size: .7rem;
+}
+}

@@ -1,0 +1,12 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  background-color: #141414;
+  font-family: "Roboto Condensed", sans-serif;
+}

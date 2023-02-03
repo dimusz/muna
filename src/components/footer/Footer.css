@@ -1,0 +1,39 @@
+.footer {
+  background-color: #141414;
+  position: sticky;
+}
+
+#footer-line {
+  background-color: #b2b4c4;
+  height: 1px;
+}
+
+#footer-setup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: #b2b4c4;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  #footer-setup {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #b2b4c4;
+  }
+  .company{
+    font-size: 1rem;
+  }
+  .company table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+}

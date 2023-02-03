@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+.marketing {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.basic {
+  width: inherit;
+  height: 220px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #141414;
+  color: #b2b4c4;
+  align-items: center;
+  justify-content: space-around;
+}
+.basic:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.basic h3 {
+  display: flex;
+  flex-direction: column;
+}
+#marketing {
+  width: 200px;
+  height: 200px;
+}
+.marketing h1{
+  color: #b2b4c4;
+  text-transform: uppercase;
+}
+.business {
+  width: inherit;
+  height: 220px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #6d4263;
+  color: #b2b4c4;
+  align-items: center;
+  justify-content: space-around;
+}
+.business:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+#marketing1 {
+  width: 200px;
+  height: 200px;
+}
+.pro {
+  width: inherit;
+  height: 220px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  background-color: #0e7074;
+  color: #b2b4c4;
+  align-items: center;
+  justify-content: space-around;
+}
+.pro:hover{
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+.marketing button{
+  margin-top: 20px;
+  margin-right: auto;
+  color: #b2b4c4;
+  background-color: #141414;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+  .marketing {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  #marketing {
+    width: 135px;
+    height: 135px;
+}
+  .marketing button{
+    margin-top: 20px;
+    margin-right: auto;
+    color: #b2b4c4;
+    background-color: #141414;
+  }
+  .basic {
+    width: inherit;
+    height: 220px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #141414;
+    color: #b2b4c4;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .marketing h1{
+    color: #b2b4c4;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  .basic h2{
+    font-size: 1rem;
+  }
+  .basic h3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.85rem;
+}
+#marketing1 {
+  width: 135px;
+  height: 135px;
+}
+.business h2{
+  font-size: 1rem;
+}
+.business h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+}
+.pro h2{
+  font-size: 1rem;
+}
+.pro h3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+}
+}

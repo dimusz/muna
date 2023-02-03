@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+.consultanta {
+  background-color: #141414;
+  color: #b2b4c4;
+}
+.consultanta h1{
+  text-align: center;
+}
+.img-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#consultanta-img {
+  height: 35%;
+  width: 50%;
+  padding-top: 50px;
+}
+.consultanta2 {
+  font-family: "Roboto Condensed", sans-serif;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.consultanta2-container {
+  background-color: #0e7074;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+}
+
+.consultanta button {
+  margin-top: 20px;
+  margin-right: auto;
+  color: #b2b4c4;
+  background-color: #141414;
+}
+@media  screen and (min-width:1024px) {
+  .consultanta h1 {
+    text-transform: uppercase;
+    color: #b2b4c4;
+    font-size: 150%;
+  }
+  .consultanta h2 {
+    font-size: 120%;
+  }
+  .consultanta2 h4 {
+    padding-top: 20px;
+    font-size: 80%;
+  }  
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+  .consultanta h1 {
+    text-transform: uppercase;
+    color: #b2b4c4;
+    font-size: 150%;
+  }
+  .consultanta h2 {
+    font-size: 120%;
+  }
+  .consultanta2 h4 {
+    padding-top: 20px;
+    font-size: 80%;
+  }
+}
+
+@media (min-width:481px) and (max-width:768px){
+  .consultanta h1 {
+    text-transform: uppercase;
+    color: #b2b4c4;
+    font-size: 100%;
+  }
+  .consultanta h2 {
+    font-size: 90%;
+  }
+  .consultanta2 h4 {
+    padding-top: 20px;
+    font-size: 60%;
+  }
+}
+
+@media (min-width:320px) and (max-width:480px){
+  .consultanta h1 {
+    text-transform: uppercase;
+    color: #b2b4c4;
+    font-size: 100%;
+  }
+  .consultanta h2 {
+    font-size: 90%;
+  }
+  .consultanta2 h4 {
+    padding-top: 20px;
+    font-size: 60%;
+  }
+  #consultanta-img {
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+}
+}
