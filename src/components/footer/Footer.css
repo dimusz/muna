@@ -17,7 +17,7 @@
   color: #b2b4c4;
 }
 
-@media (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 480px){
   #footer-setup {
     display: flex;
     flex-direction: column;
@@ -34,6 +34,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.footer tbody{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
   
 }

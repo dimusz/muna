@@ -157,7 +157,7 @@
     background-color: #0e7074;
   }
 }
-@media (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 480px){
   .BrRbr-2 {
     display: flex;
     width: 100vw;
@@ -185,6 +185,11 @@
     color: blue;
     cursor: pointer;
     font-size: 15px;
+  }
+  .principal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .branding-setup {
     width: inherit;

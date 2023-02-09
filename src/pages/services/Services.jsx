@@ -6,13 +6,13 @@ function Services() {
   let navigate = useNavigate();
 
   const buttons = [
-    { description: "Consultanta", path: "/consultanta" },
-    { description: "Marketing", path: "/marketing" },
+    { description: "Consultanta", path: "/muna/consultanta" },
+    { description: "Marketing", path: "/muna/marketing" },
   ];
 
   const buttons1 = [
-    { description1: "Branding si Rebranding", path: "/branding" },
-    { description1: "Web-design", path: "/design" },
+    { description1: "Branding si Rebranding", path: "/muna/branding" },
+    { description1: "Web-design", path: "/muna/design" },
   ];
 
   return (

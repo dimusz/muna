@@ -2,7 +2,7 @@
 .container {
   background-color: #141414;
   color: #b2b4c4;
-  height: 100vh;
+  height: auto;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,6 @@
   background-color: #141414;
   height: auto;
   width: 100vw;
-  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +64,37 @@ button {
 button:hover {
   cursor: pointer;
 }
-@media (min-width: 320px) and (max-width: 480px) {
+
+@media (min-width: 481px) and (max-width: 768px){
+  .container{
+    background-color: #141414;
+    color: #b2b4c4;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
+  .container-header h1 {
+    text-align: center;
+  }
+  .container-header h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container{
+    background-color: #141414;
+    color: #b2b4c4;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+
   .container-header h1 {
     text-align: center;
   }

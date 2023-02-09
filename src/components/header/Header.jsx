@@ -49,16 +49,16 @@ function Header() {
                 />
               </div>
               <li onClick={showMenu}>
-                <NavLink to="/acasa">Acasa</NavLink>
+                <NavLink to="/muna/acasa">Acasa</NavLink>
               </li>
               <li onClick={showMenu}>
-                <NavLink to="/servicii">Servicii</NavLink>
+                <NavLink to="/muna/servicii">Servicii</NavLink>
               </li>
               <li onClick={showMenu}>
-                <NavLink to="/despre">About Us</NavLink>
+                <NavLink to="/muna/despre">About Us</NavLink>
               </li>
               <li onClick={showMenu}>
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink to="/muna/contact">Contact</NavLink>
               </li>
             </ul>
           </nav>

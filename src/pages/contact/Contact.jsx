@@ -1,8 +1,22 @@
-import React, { useState } from "react";
-
+import React , {useRef} from "react";
 import "./Contact.css";
+ import emailjs from '@emailjs/browser';
 
-function Contact () {
+ export const Contact = ()=> {
+ 
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('muna_ro', 'email_template', form.current, 'WYKtISFVke35Y3668')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    };
   return (
     <div className="container">
       <div className="container-header">
@@ -14,19 +28,19 @@ function Contact () {
           sau completeaza formularul de mai jos.{" "}
         </h2>
       </div>
-      <form className="contact" >
+      <form className="contact" ref={form} onSubmit={sendEmail}>
         <div className="form-container">
           <div>
             <label htmlFor="name">Name</label>
-            <input type="text" id="name" required />
+            <input type="text" id="name" name="name" required />
           </div>
           <div>
             <label htmlFor="email">Email</label>
-            <input type="email" id="email" required />
+            <input type="email" id="email" name="email" required />
           </div>
           <div>
             <label htmlFor="message">Message</label>
-            <textarea id="message" cols="19" rows="10"></textarea>
+            <textarea id="message" cols="19" rows="10" name="textarea" ></textarea>
           </div>
           <button type="submit">Send</button>
         </div>

@@ -9,7 +9,7 @@ function Footer() {
       <div id="footer-line"></div>
       <div id="footer-setup">
       <div id="social-icons">
-          <table>
+          <table><tbody>
             <tr>
               <th>
                 <a href="https://www.facebook.com/munawebadv/">
@@ -22,14 +22,14 @@ function Footer() {
               <th>
                 <TwitterIcon />
               </th>
-            </tr>
+            </tr></tbody>
           </table>
         </div>
         <div>
           <div> MUNA</div>
         </div>
         <div className="company">
-          <table>
+          <table><tbody>
             <tr>
               <th>SC DINA & MUSZURIAK SRL</th>
             </tr>
@@ -38,7 +38,7 @@ function Footer() {
             </tr>
             <tr>
               <td>Nr. Reg. Com: J35/2058/2014</td>
-            </tr>
+            </tr></tbody>
           </table>
         </div>
       </div>
