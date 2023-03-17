@@ -66,6 +66,10 @@
   #logo{
     width: 20%;
   }
+  #muna-footer{
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -73,7 +77,16 @@
     background-color: #141414;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-top: 3%;
     justify-content: space-between;
+  }
+  .header-form-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50p;
+    justify-content: center;
   }
   #header-line {
     background-color: #b2b4c4;
@@ -124,6 +137,7 @@
     left: -100%;
     background-color: #141414;
     transition: 1s ease;
+    overflow: scroll;
   }
   .slider.active {
     z-index: +2;
@@ -151,8 +165,7 @@
     width: 500px;
     top: 25%;
     left: 18%;
-    right: -100%;
-    bottom: -100%;
+    transform: translate(-6%, 10%);
     opacity: 0.1;
     z-index: -1;
   }

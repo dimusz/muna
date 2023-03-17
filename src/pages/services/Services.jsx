@@ -2,6 +2,7 @@ import "./Services.css";
 import servicesImage from "../../logo/servicesImage.png";
 import { useNavigate } from "react-router-dom";
 import Button from '@mui/material/Button';
+import { Helmet } from "react-helmet";
 function Services() {
   let navigate = useNavigate();
 
@@ -17,6 +18,7 @@ function Services() {
 
   return (
     <div className="services">
+      <div><Helmet><title>Muna | Servicii</title></Helmet></div>
       <div className="services1">
         <div id="categories">
           <ul id="buttons-map">

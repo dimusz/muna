@@ -3,11 +3,12 @@ import "./Consultanta.css";
 import { useNavigate } from "react-router-dom";
 import Button from '@mui/material/Button';
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import { Helmet } from "react-helmet";
 function Consultanta() {
   let navigate = useNavigate();
   return (
     <div className="consultanta">
-
+<div><Helmet><title>Muna | Consultanta</title></Helmet></div>
        <Button onClick={() => navigate("/servicii")}><ArrowBackIcon/></Button> 
       
       <h1>Consultanta</h1>

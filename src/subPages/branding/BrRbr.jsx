@@ -4,6 +4,8 @@ import "./BrRbr.css";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import Button from "@mui/material/Button";
+import { Helmet } from "react-helmet";
+
 const ReadMore = ({ children }) => {
   const text = children;
   const [isReadMore, setIsReadMore] = useState(true);
@@ -22,7 +24,7 @@ const ReadMore = ({ children }) => {
 
 function BrRbr() {
   let navigate = useNavigate();
-  return (
+  return (<div><div><Helmet><title>Muna | Branding</title></Helmet></div>
     <div className="BrRbr">
       <Button onClick={() => navigate("/servicii")}>
         <ArrowBackIcon />
@@ -46,28 +48,34 @@ function BrRbr() {
           </div>
         </div>
         <div className="branding-setup">
-          <table><tbody>
-            <tr>
-              <th id="companie">
-                {" "}
-                <h2>Branding de companie</h2>
-                <h3>
-                  <ReadMore>Brandingul de companie</ReadMore>
-                </h3>{" "}
-              </th>
-              <th id="produs">
-                {" "}
-                <h2>Branding de produs</h2>{" "}
-                <h3>
+          <table>
+            <tbody>
+              <tr>
+                <th id="companie">
                   {" "}
-                  <ReadMore>
-                    Brandingul de produs reprezinta o strategie de marketing prin care un
-                    anumit produs se diferentiaza de celalate produse ale
-                    companiei. 
-                  </ReadMore>{" "}
-                </h3>{" "}
-              </th>
-            </tr></tbody>
+                  <h2>Branding de companie</h2>
+                  <h3>
+                    <ReadMore>
+                      Brandingul de companie este un proces prin care se creaza
+                      o identitate distincta a companiei, in mintea
+                      consumatorului.{" "}
+                    </ReadMore>
+                  </h3>{" "}
+                </th>
+                <th id="produs">
+                  {" "}
+                  <h2>Branding de produs</h2>{" "}
+                  <h3>
+                    {" "}
+                    <ReadMore>
+                      Brandingul de produs reprezinta o strategie de marketing
+                      prin care un anumit produs se diferentiaza de celalate
+                      produse ale companiei.
+                    </ReadMore>{" "}
+                  </h3>{" "}
+                </th>
+              </tr>
+            </tbody>
           </table>
         </div>
 
@@ -75,7 +83,7 @@ function BrRbr() {
           <h4>*de la 2000 lei</h4>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 }
 export default BrRbr;

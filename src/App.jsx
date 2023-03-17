@@ -16,14 +16,14 @@ function App() {
     <div className="App">
       <Header/>
       <Routes>
-        <Route path="/muna/acasa" element={<Home />} />
-        <Route path="/muna/servicii" element={<Services />} />
-        <Route path="/muna/consultanta" element={<Consultanta />} />
-        <Route path="/muna/marketing" element={<Marketing />} />
-        <Route path="/muna/design" element={<WebDev />} />
-        <Route path="/muna/branding" element={<BrRbr />} />
-        <Route path="/muna/despre" element={<AboutUs />} />
-        <Route path="/muna/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/servicii" element={<Services />} />
+        <Route path="/consultanta" element={<Consultanta />} />
+        <Route path="/marketing" element={<Marketing />} />
+        <Route path="/design" element={<WebDev />} />
+        <Route path="/branding" element={<BrRbr />} />
+        <Route path="/despre" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
   <Footer />
     </div>

@@ -3,6 +3,11 @@
   position: sticky;
 }
 
+#opc a img {
+  width: auto;
+  height: 3rem;
+}
+
 #footer-line {
   background-color: #b2b4c4;
   height: 1px;
@@ -15,6 +20,12 @@
   justify-content: space-around;
   align-items: center;
   color: #b2b4c4;
+}
+.footer tbody{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
 }
 
 @media screen and (max-width: 480px){
@@ -40,6 +51,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+#muna-footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
   
 }

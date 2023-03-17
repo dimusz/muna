@@ -1,7 +1,7 @@
 import React , {useRef} from "react";
 import "./Contact.css";
  import emailjs from '@emailjs/browser';
-
+ import { Helmet } from "react-helmet";
  export const Contact = ()=> {
  
     const form = useRef();
@@ -19,6 +19,7 @@ import "./Contact.css";
     };
   return (
     <div className="container">
+      <div><Helmet><title>Muna | Contact</title></Helmet></div>
       <div className="container-header">
         <h1>Prețurile prezentate au caracter informativ. </h1>
         <h2>

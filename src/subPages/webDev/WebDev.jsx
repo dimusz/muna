@@ -5,11 +5,12 @@ import design from "../../logo/design.png";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import Button from '@mui/material/Button';
-
+import { Helmet } from "react-helmet";
 function WebDev() {
   let navigate = useNavigate();
   return (
     <div className="webDev">
+      <div><Helmet><title>Muna | WebDev</title></Helmet></div>
       <Button onClick={() => navigate("/servicii")}>
         <ArrowBackIcon />
       </Button>

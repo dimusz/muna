@@ -4,10 +4,12 @@ import "./Marketing.css";
 import { useNavigate } from "react-router-dom";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import Button from '@mui/material/Button';
+import { Helmet } from "react-helmet";
 function Marketing() {
   let navigate=useNavigate()
   return (
     <div className="marketing">
+      <div><Helmet><title>Muna | Marketing</title></Helmet></div>
      <Button onClick={()=>navigate('/servicii')}><ArrowBackIcon/></Button> 
     <div> <h1>Marketing</h1> </div>
      <div className="basic">
