@@ -24,7 +24,9 @@ function Footer() {
                 </a>
               </th>
               <th>
+                <a href="https://www.instagram.com/_m_u_n_a_t_m_/">
                 <InstagramIcon />
+                </a>
               </th>
           {/*    <th>
                 <TwitterIcon />
