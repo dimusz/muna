@@ -55,11 +55,11 @@ function BrRbr() {
                   {" "}
                   <h2>Branding de companie</h2>
                   <h3>
-                    <ReadMore>
+                    {/*<ReadMore>*/}
                       Brandingul de companie este un proces prin care se creaza
                       o identitate distincta a companiei, in mintea
                       consumatorului.{" "}
-                    </ReadMore>
+                 {/*</ReadMore>*/}   
                   </h3>{" "}
                 </th>
                 <th id="produs">
@@ -67,11 +67,11 @@ function BrRbr() {
                   <h2>Branding de produs</h2>{" "}
                   <h3>
                     {" "}
-                    <ReadMore>
+                  {/*<ReadMore>*/}  
                       Brandingul de produs reprezinta o strategie de marketing
                       prin care un anumit produs se diferentiaza de celalate
                       produse ale companiei.
-                    </ReadMore>{" "}
+                   {/*</ReadMore>*/} {" "}
                   </h3>{" "}
                 </th>
               </tr>

@@ -26,9 +26,9 @@ function Footer() {
               <th>
                 <InstagramIcon />
               </th>
-              <th>
+          {/*    <th>
                 <TwitterIcon />
-              </th>
+  </th>*/}
             </tr></tbody>
           </table>
         </div>

@@ -23,12 +23,12 @@ function AboutUs() {
         training-uri, în 2022 am intrat in online cu primul site și am început
         să facem marketing pentru compania noastră iar ulterior și pentru unii
         parteneri. Rezultatele au fost bune și așa a
-        aparut
+        aparut</h3>
         <h4>
           <CopyrightIcon />
           MUNA marketing and branding.
         </h4>
-      </h3></div>
+      </div>
     </div>
   );
 }

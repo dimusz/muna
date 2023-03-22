@@ -24,9 +24,7 @@ import "./Contact.css";
         <h1>Prețurile prezentate au caracter informativ. </h1>
         <h2>
           Pentru o oferta personalizată te rugăm sa ne lași un mesaj pe adresa
-          de email oferte@muna.ro
-          <br />
-          sau completeaza formularul de mai jos.{" "}
+          de email contact@muna.ro,<br/> la numarul de telefon <a href="tel:0745580156">0745580156</a> sau completeaza formularul de mai jos.{" "}
         </h2>
       </div>
       <form className="contact" ref={form} onSubmit={sendEmail}>
