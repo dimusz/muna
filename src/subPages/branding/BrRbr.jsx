@@ -50,7 +50,7 @@ function BrRbr() {
         <div className="branding-setup">
           <table>
             <tbody>
-              <tr>
+              
                 <th id="companie">
                   {" "}
                   <h2>Branding de companie</h2>
@@ -74,7 +74,7 @@ function BrRbr() {
                    {/*</ReadMore>*/} {" "}
                   </h3>{" "}
                 </th>
-              </tr>
+              
             </tbody>
           </table>
         </div>

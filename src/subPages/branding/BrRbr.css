@@ -191,14 +191,18 @@
     flex-direction: column;
     align-items: center;
   }
-  .branding-setup {
-    width: inherit;
+  .principal{
+    font-size: 1.4rem;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .branding-setup tbody {
     display: flex;
+    width: 100%;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    color: #b2b4c4;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
   }
   .branding-setup th {
     width: 33%;
@@ -212,16 +216,26 @@
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   #companie h2 {
     text-decoration: underline;
     text-transform: uppercase;
     font-size: 100%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
   }
   #produs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background-color: #6d4263;
   }
   #companie {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background-color: #0e7074;
   }
 }
